@@ -2,126 +2,208 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vanilla-app-template/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <script type="module" crossorigin src="/vanilla-app-template/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/styles-DvPDDfy5.css">
+    <link rel="icon" type="image/svg+xml" href="/contact-us-footer/favicon.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio 2.0</title>
+    <script type="module" crossorigin src="/contact-us-footer/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/contact-us-footer/assets/index-B3dtpbM0.css">
+    <link rel="stylesheet" crossorigin href="/contact-us-footer/assets/styles-Bj6CAbzV.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/vanilla-app-template/assets/sprite-E8vg0sBb.svg#logo"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
 
     <main>
       <!-- Loads the specified .html file -->
-      <section class="vite-promo">
-  <div class="container">
-    <div class="vite-promo-thumb">
-      <a
-        class="vite-promo-link"
-        href="https://vitejs.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Vite official website"
-        title="Vite.js  build tool"
-      >
-        <!-- Path to images as from index.html file -->
-        <img
-          class="pic"
-          src="/vanilla-app-template/assets/vite-logo-9o_aqrTe.png"
-          alt="Vite logo"
-          width="640"
-          height="640"
-        />
-      </a>
-    </div>
-    <h1 class="main-title">
-      <span class="main-title-gradient">Vite</span>
-      Template by
-      <a
-        class="main-title-link"
-        href="https://github.com/goitacademy/vanilla-app-template"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT
-      </a>
-    </h1>
-  </div>
-</section>
-
-      <article class="badges">
-  <div class="container">
-    <ul class="badges-list">
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-html-inject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          HTML Inject
-        </a>
-      </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-full-reload"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Full Reload
-        </a>
-      </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/postcss-sort-media-queries"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sort Media Queries
-        </a>
-      </li>
-    </ul>
-  </div>
-</article>
+      <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lets-work-together</title>
+  </head>
+  <body>
+    <main>
+      <section id="section-contact-us">
+        <div class="container">
+          <div class="contact-us">
+            <h2 class="h2-contact-us">Contact us</h2>
+            <div class="contact-body">
+              <div class="info-window">
+                <p class="contact-text">
+                  Please use the form below to contact us. Enter your name,
+                  email, phone, and message and we'll get back to you shortly.
+                </p>
+                <form class="contact-form">
+                  <div class="contact-row">
+                    <label for="user-name"></label>
+                    <input
+                      type="text"
+                      name="user-name"
+                      id="user-name"
+                      class="contact-input"
+                      placeholder="Name"
+                      required
+                    />
+                  </div>
+                  <div class="contact-row">
+                    <label for="user-email"></label>
+                    <input
+                      type="email"
+                      name="user-email"
+                      pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                      id="user-email"
+                      class="contact-input"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
+                  <div class="contact-row">
+                    <label for="user-tel"></label>
+                    <input
+                      type="tel"
+                      name="user-tel"
+                      pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+                      id="user-tel"
+                      class="contact-input"
+                      placeholder="+380-93-111-99-33"
+                      required
+                    />
+                  </div>
+                  <div class="contact-row-comment">
+                    <label for="user-comment"></label>
+                    <textarea
+                      name="user-comment"
+                      id="user-comment"
+                      class="contact-textarea"
+                      placeholder="Comment"
+                      required
+                    ></textarea>
+                  </div>
+                  <button class="button-send" type="submit">Send</button>
+                </form>
+              </div>
+              <picture
+                ><source
+                  srcset="/img/contact_us/contact_desk@1x.jpg 1x, /img/contact_us/contact_desk@2x.jpg 2x"
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="/img/contact_us/contact_tab@1x.jpg 1x, /img/contact_us/contact_tab@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="/img/contact_us/contact_mob@1x.jpg 1x, /img/contact_us/contact_mob@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="/img/contact_us/contact_desk@1x.jpg"
+                  height="300"
+                  alt="contact-us-image"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
 
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Footer</title>
+  </head>
+  <footer id="footer-id" class="footer">
+    <div class="container footer-container">
+      <div class="footer-fixed">
+        <div class="footer-main">
+          <div class="footer-link">
+            <a href="./index.html" class="footer-logo">watchcharm</a>
+            <ul class="footer-icons">
+              <li class="footer-soc">
+                <a
+                  href="https://www.facebook.com/goITclub/"
+                  class="footer-soc-link"
+                  target="_blank"
+                  ><svg class="icons-svg" width="18" height="18">
+                    <use href="/contact-us-footer/assets/sprite-E8vg0sBb.svg#icon-facebook" /></svg
+                ></a>
+              </li>
+              <li class="footer-soc">
+                <a
+                  href="https://www.instagram.com/goitclub/"
+                  class="footer-soc-link"
+                  target="_blank"
+                  ><svg class="icons-svg" width="18" height="18">
+                    <use href="/contact-us-footer/assets/sprite-E8vg0sBb.svg#icon-instagram" /></svg
+                ></a>
+              </li>
+              <li class="footer-soc">
+                <a
+                  href="https://www.youtube.com/c/GoIT "
+                  class="footer-soc-link"
+                  target="_blank"
+                  ><svg class="icons-svg" width="18" height="18">
+                    <use href="/contact-us-footer/assets/sprite-E8vg0sBb.svg#icon-youtube" /></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <a href="tel:+380684439426" class="footer-phone"
+            >+380&nbsp;(68)&nbsp;443-94-26</a
+          >
+        </div>
+        <p class="footer-text">
+          Have the time of your life with our watches: where high-class
+          craftsmanship meets impeccable design
+        </p>
+        <div class="footer-down">
+          <ul class="footer-menu">
+            <li class="footer-menu-item"><a href="#header-id">Home</a></li>
+            <li class="footer-menu-item">
+              <a href="#section-about-us">About us</a>
+            </li>
+            <li class="footer-menu-item">
+              <a href="#section-catalog">Catalog</a>
+            </li>
+            <li class="footer-menu-item"><a href="#section-sale">Sale</a></li>
+            <li class="footer-menu-item">
+              <a href="#section-reviews">Reviews</a>
+            </li>
+            <li class="footer-menu-item">
+              <a href="#section-contact-us">Contact Us</a>
+            </li>
+          </ul>
+
+          <address class="footer-menu-item">
+            1678 S. Pioneer Road Salt Lake City UT 84104
+          </address>
+        </div>
+        <hr class="footer-line" />
+        <ul class="regulation-menu">
+          <li class="regulation-menu-item">
+            &copy;2023 The Watch Spot. All rights reserved.
+          </li>
+          <li class="regulation-menu-item"><a href="">Terms of Service</a></li>
+          <li class="regulation-menu-item"><a href="">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</html>
 
 
   </body>
